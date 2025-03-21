@@ -1,0 +1,10 @@
+OPS445 Lab Report - System Information for running ./CheckLab7.py
+=================================================================
+    User login name: sdaweng
+    Linux system name: sdaweng-VirtualBox
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/sdaweng/ops445/lab7
+    Start at: Fri Mar 21 18:52:09 2025
+=================================================================

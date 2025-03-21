@@ -14,10 +14,13 @@ class Time:
         self.second = second
     
     def __str__(self):
-        return self.format_time()
+        '''return a string representation for the object self'''
+        return  f'{self.hour:02d}:{self.minute:02d}:{self.second:02d}'
 
     def __repr__(self):
-        return f"Time({self.hour}, {self.minute}, {self.second})"
+        '''return a string representation for the object self'''
+        '''just instead of ':', you are required use the '.'  in the formatting string.'''
+        return f"{self.hour:02d}.{self.minute:02d}.{self.second:02d}"
 
     def format_time(self):
         """Return time object (t) as a formatted string"""
@@ -29,7 +32,7 @@ class Time:
         total_seconds = t1.time_to_sec() + t2.time_to_sec()
         return sec_to_time(total_seconds)     
 
-    
+
 
     def change_time(self, seconds):
         time_seconds = self.time_to_sec()
